@@ -1,12 +1,12 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license.
 
-using graph_tutorial.Helpers;
+using Asereware.MSGraph.Helpers;
 using System;
 using System.Threading.Tasks;
 using System.Web.Mvc;
 
-namespace graph_tutorial.Controllers
+namespace Asereware.MSGraph.Controllers
 {
     public class CalendarController : BaseController
     {

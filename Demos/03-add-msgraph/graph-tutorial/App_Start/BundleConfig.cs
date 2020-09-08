@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace graph_tutorial
+namespace Asereware.MSGraph
 {
     public class BundleConfig
     {

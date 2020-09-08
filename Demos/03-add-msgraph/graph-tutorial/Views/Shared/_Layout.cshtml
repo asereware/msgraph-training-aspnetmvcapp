@@ -2,9 +2,9 @@
      Licensed under the MIT License. -->
 
 @{
-    var alerts = TempData.ContainsKey(graph_tutorial.Models.Alert.AlertKey) ?
-        (List<graph_tutorial.Models.Alert>)TempData[graph_tutorial.Models.Alert.AlertKey] :
-        new List<graph_tutorial.Models.Alert>();
+    var alerts = TempData.ContainsKey(Asereware.MSGraph.Models.Alert.AlertKey) ?
+        (List<Asereware.MSGraph.Models.Alert>)TempData[Asereware.MSGraph.Models.Alert.AlertKey] :
+        new List<Asereware.MSGraph.Models.Alert>();
 }
 
 <!DOCTYPE html>
@@ -12,7 +12,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASP.NET Graph Tutorial</title>
+    <title>Resources</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
@@ -24,7 +24,7 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container">
-            @Html.ActionLink("ASP.NET Graph Tutorial", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            @Html.ActionLink("Resources", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,6 +40,10 @@
                         <li class="nav-item" data-turbolinks="false">
                             @Html.ActionLink("Calendar", "Index", "Calendar", new { area = "" },
                                 new { @class = ViewBag.Current == "Calendar" ? "nav-link active" : "nav-link" })
+                        </li>
+                        <li class="nav-item" data-turbolinks="false">
+                            @Html.ActionLink("Files", "Index", "Files", new { area = "" },
+                                new { @class = ViewBag.Current == "Files" ? "nav-link active" : "nav-link" })
                         </li>
                     }
                 </ul>

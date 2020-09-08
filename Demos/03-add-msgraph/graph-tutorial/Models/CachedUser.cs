@@ -1,7 +1,7 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license.
 
-namespace graph_tutorial.Models
+namespace Asereware.MSGraph.Models
 {
     // Simple class to serialize user details
     public class CachedUser

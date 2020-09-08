@@ -7,7 +7,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace graph_tutorial.Controllers
+namespace Asereware.MSGraph.Controllers
 {
     public class HomeController : BaseController
     {

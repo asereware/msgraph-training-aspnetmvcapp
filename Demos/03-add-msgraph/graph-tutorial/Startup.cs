@@ -4,9 +4,9 @@
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(graph_tutorial.Startup))]
+[assembly: OwinStartup(typeof(Asereware.MSGraph.Startup))]
 
-namespace graph_tutorial
+namespace Asereware.MSGraph
 {
     public partial class Startup
     {

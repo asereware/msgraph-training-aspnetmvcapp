@@ -1,0 +1,29 @@
+﻿
+@model IEnumerable<Microsoft.Graph.DriveItem>
+
+@{
+    ViewBag.Current = "Files";
+}
+
+<h1>ErgoBPM Files</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">View</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Modified (local time)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>@item.Name</td>
+            <td><a href="@item.WebUrl" target="_blank">View</a></td>
+            <td>@Html.ActionLink("Edit", "EditOnLine", new { id = @item.Id }, new { target = "_blank" })</td>
+            <td>@item.LastModifiedDateTime</td>
+        </tr>
+        }
+    </tbody>
+</table>
