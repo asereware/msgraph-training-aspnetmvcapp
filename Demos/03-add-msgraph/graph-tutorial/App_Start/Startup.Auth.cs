@@ -1,8 +1,8 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license.
 
-using Asereware.MSGraph.Helpers;
-using Asereware.MSGraph.TokenStorage;
+using graph_tutorial.Helpers;
+using graph_tutorial.TokenStorage;
 using Microsoft.Identity.Client;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using Microsoft.IdentityModel.Tokens;
@@ -16,7 +16,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace Asereware.MSGraph
+namespace graph_tutorial
 {
     public partial class Startup
     {

@@ -1,15 +1,15 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license.
 
-using Asereware.MSGraph.Models;
-using Asereware.MSGraph.TokenStorage;
+using graph_tutorial.Models;
+using graph_tutorial.TokenStorage;
 using Microsoft.Owin.Security.Cookies;
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Asereware.MSGraph.Controllers
+namespace graph_tutorial.Controllers
 {
     public abstract class BaseController : Controller
     {

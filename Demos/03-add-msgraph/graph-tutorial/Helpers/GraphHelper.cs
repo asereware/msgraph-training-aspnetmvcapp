@@ -1,11 +1,11 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license.
 
-using Asereware.MSGraph.Models;
+using graph_tutorial.Models;
 using Microsoft.Graph;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
-using Asereware.MSGraph.TokenStorage;
+using graph_tutorial.TokenStorage;
 using Microsoft.Identity.Client;
 using System.Collections.Generic;
 using System.Configuration;
@@ -15,7 +15,7 @@ using System.Web;
 using System;
 using System.IO;
 
-namespace Asereware.MSGraph.Helpers
+namespace graph_tutorial.Helpers
 {
     public static class GraphHelper
     {

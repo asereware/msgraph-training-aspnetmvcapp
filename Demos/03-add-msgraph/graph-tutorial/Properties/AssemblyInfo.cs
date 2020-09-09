@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Asereware.MSGraph")]
-[assembly: AssemblyDescription("MS Graph adapter consumer")]
+[assembly: AssemblyTitle("graph_tutorial")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Asereware")]
-[assembly: AssemblyProduct("Asereware.MSGraph")]
-[assembly: AssemblyCopyright("Copyright ©  Asereware 2020")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("graph_tutorial")]
+[assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

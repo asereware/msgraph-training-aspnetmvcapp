@@ -1,14 +1,14 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license.
 
-using Asereware.MSGraph.Models;
+using graph_tutorial.Models;
 using Microsoft.Identity.Client;
 using Newtonsoft.Json;
 using System.Security.Claims;
 using System.Threading;
 using System.Web;
 
-namespace Asereware.MSGraph.TokenStorage
+namespace graph_tutorial.TokenStorage
 {
     public class SessionTokenStore
     {

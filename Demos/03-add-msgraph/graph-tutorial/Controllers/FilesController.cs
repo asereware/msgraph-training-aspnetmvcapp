@@ -1,4 +1,4 @@
-﻿using Asereware.MSGraph.Helpers;
+﻿using graph_tutorial.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Asereware.MSGraph.Controllers
+namespace graph_tutorial.Controllers
 {
     public class FilesController : BaseController
     {

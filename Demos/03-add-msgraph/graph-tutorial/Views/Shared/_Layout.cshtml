@@ -2,9 +2,9 @@
      Licensed under the MIT License. -->
 
 @{
-    var alerts = TempData.ContainsKey(Asereware.MSGraph.Models.Alert.AlertKey) ?
-        (List<Asereware.MSGraph.Models.Alert>)TempData[Asereware.MSGraph.Models.Alert.AlertKey] :
-        new List<Asereware.MSGraph.Models.Alert>();
+    var alerts = TempData.ContainsKey(graph_tutorial.Models.Alert.AlertKey) ?
+        (List<graph_tutorial.Models.Alert>)TempData[graph_tutorial.Models.Alert.AlertKey] :
+        new List<graph_tutorial.Models.Alert>();
 }
 
 <!DOCTYPE html>

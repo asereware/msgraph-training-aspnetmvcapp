@@ -1,7 +1,7 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license.
 
-using Asereware.MSGraph.TokenStorage;
+using graph_tutorial.TokenStorage;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OpenIdConnect;
@@ -9,7 +9,7 @@ using System.Security.Claims;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Asereware.MSGraph.Controllers
+namespace graph_tutorial.Controllers
 {
     public class AccountController : Controller
     {
